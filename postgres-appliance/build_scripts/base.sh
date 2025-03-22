@@ -119,6 +119,8 @@ for version in $DEB_PG_SUPPORTED_VERSIONS; do
         "postgresql-server-dev-${version}" \
         "postgresql-${version}-pgq3" \
         "postgresql-${version}-pg-stat-kcache" \
+        "postgresql-${version}-jsquery" \
+        "postgresql-${version}-pgrouting" \
         "${EXTRAS[@]}"
 
     # Clean up timescaledb versions except the last 5 minor versions
